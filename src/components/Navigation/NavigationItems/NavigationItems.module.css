@@ -1,0 +1,46 @@
+.NavigationItems {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 2rem;
+    color: rgb(89, 122, 86);
+}
+
+.ImageContainer {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.ImageContainer img {
+    width: 100%;
+}
+
+.Username {
+    font-size: 1rem;
+    margin-left: .5rem;
+}
+
+.NavigationItemContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.Alert {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1.3rem;
+    height: 1.3rem;
+    padding: .1rem;
+    color: #fff;
+    border-radius: 50%;
+    background-color: rgb(255, 116, 116);
+    font-size: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(30%, -30%);
+}

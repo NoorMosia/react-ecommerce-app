@@ -1,0 +1,34 @@
+.Banner {
+    height: 45vh;
+    background-image: linear-gradient(to right, rgba(26, 221, 26, 0.856), rgba(59, 59, 248, 0.89)), url("https://cdn1-www.momtastic.com/assets/uploads/2012/06/mom-online-grocery-shopping.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+}
+
+.MainHeading {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.SubHeading {
+    font-size: 1.2rem;
+    margin-top: .2rem;
+}
+
+
+@media only screen and (max-width:420px){
+    .MainHeading {
+        font-size: 1.4rem;
+    }
+    
+    .SubHeading {
+        font-size: .7rem;
+    }
+    
+}

@@ -1,0 +1,10 @@
+.Link a {
+    color: inherit;
+    text-decoration: none;
+    transition: .2s all; 
+}
+
+.Link a:hover,
+.Link a:active {
+    color: rgb(0, 128, 0);
+}

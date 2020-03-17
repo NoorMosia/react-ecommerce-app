@@ -1,0 +1,17 @@
+.ProductInfo {
+    display: flex;
+}
+
+.ImageContainer {
+    width: 35%;
+    height: 15rem;
+}
+
+.ImageContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.Text {
+    padding: 1rem;
+}

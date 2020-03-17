@@ -1,0 +1,10 @@
+.Cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Total {
+    font-size: 1.4rem;
+    margin: 1rem;
+}

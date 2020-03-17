@@ -1,0 +1,11 @@
+.Setting {
+    width: 98%;
+    margin: 1rem;
+}
+
+
+.Header {
+    background-color: rgb(179, 179, 179);
+    text-transform: uppercase;
+    padding: .5rem;
+}

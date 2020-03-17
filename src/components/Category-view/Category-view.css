@@ -1,0 +1,13 @@
+.Header {
+    padding: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.categoryView {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: .8rem;
+}

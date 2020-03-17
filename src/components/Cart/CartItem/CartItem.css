@@ -1,0 +1,81 @@
+.CartItem {
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+    /* background-color: salmon; */
+    border: 1px solid salmon;
+    margin: 1rem;
+}
+.CartItem div {
+    padding: .5rem;
+    text-transform: capitalize;
+}
+
+.ImageContainer {
+    width: 40%;
+    height: 10rem;
+}
+
+.ImageContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.Icons{
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-grow: 1;
+    margin: 0 1rem;
+}
+
+.Icons span {
+    transition: all .4s;
+
+}
+
+.Icons span:hover {
+    transform: scale(1.5)
+}
+
+.More {
+    color: rgb(0, 255, 0);
+    cursor: pointer;
+}
+
+.Remove { 
+    color: rgb(255, 51, 51);
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.Remove:hover {
+    color: rgba(255, 51, 51, 0.781);
+}
+
+.QtyIcons {
+    justify-content: center;
+    font-size: 1.4rem;
+    margin-left: -.5rem;
+}
+
+.QtyIcons span {
+    margin: 0 2.5rem 0 0;
+    transition: all .4s;
+}
+
+.QtyIcons span:hover {
+    transform: scale(1.2);
+}
+
+.Subtract {
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.Add {
+    color: rgb(2, 255, 36);
+    cursor: pointer;
+}

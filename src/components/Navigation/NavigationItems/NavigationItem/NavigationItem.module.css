@@ -1,0 +1,26 @@
+.NavigationItem {
+    text-transform: capitalize;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.NavigationItem a {
+    margin: 0 .2rem;
+    padding: 1.4rem;
+    height: 100%;
+    width: 100%;
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: all .5s; 
+    border-bottom: 2px solid transparent;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.Active {
+    background-color: rgb(231, 231, 231);
+    border-bottom: 2px solid salmon;
+}

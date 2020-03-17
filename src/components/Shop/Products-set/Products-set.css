@@ -1,0 +1,29 @@
+.ProductSet {
+    padding: 2rem;
+}
+
+.Name {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: .5rem;
+}
+
+.CardsContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.More {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
+
+@media only screen and (max-width:750px){
+    .ProductSet {
+        padding: .2rem;
+    }
+}

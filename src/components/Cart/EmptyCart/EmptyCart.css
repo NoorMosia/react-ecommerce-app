@@ -1,0 +1,17 @@
+.EmptyCart {
+    text-align: center;
+}
+
+.Text {
+    margin: 1rem;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+.Link {
+    margin: 1rem;
+    font-size: 2rem;
+    color: green;
+    text-transform: uppercase;
+    text-decoration: underline;
+}

@@ -1,0 +1,68 @@
+.Link {
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: .5rem;
+}
+
+.Link a {
+    text-decoration: none;
+    color: inherit;
+    transition: all .3s; 
+    padding: .6rem 2rem;
+    display: flex;
+}
+
+.Link a:hover {
+    background-color: rgb(115, 255, 0);
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.Link a.Active {
+    background-color: rgb(92, 202, 2);
+}
+
+.Link a:active {
+    background-color: rgb(115, 255, 0);
+}
+
+
+.Link a div {
+    padding: .2rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.LinkIcon {
+    font-size: 1.8rem;
+}
+
+.LinkText {
+    font-size: 1rem;
+}
+
+
+@media only screen and (max-width:1049px){
+    .Link {
+        margin: 0;
+        width: 33.333%;
+        font-size: 0.5rem;
+    }
+
+
+    .Link a {
+        padding: 1rem 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .LinkIcon {
+        font-size: 1.2rem;
+    }
+
+    .LinkText {
+        font-size: 0.7rem;
+    }
+}

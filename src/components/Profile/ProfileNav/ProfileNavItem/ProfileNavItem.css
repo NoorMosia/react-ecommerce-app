@@ -1,0 +1,38 @@
+
+.Item {
+    background-color: rgb(35, 204, 1);
+    text-transform: uppercase;
+    color: #fff;
+    flex-grow: 1;
+    margin: .1rem;
+}
+
+.Item a {
+    text-decoration: none;
+    color: inherit;
+    transition: all .3s; 
+    padding: 1rem 2rem;
+    display: flex;
+}
+
+.Item a:hover {
+    background-color: rgb(37, 243, 10);
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.Item a.Active {
+    background-color: rgb(63, 141, 0);
+}
+
+.Item a:active {
+    background-color: rgb(0, 131, 0);
+}
+
+
+.Item a div {
+    padding: .2rem 1rem;
+    display: flex;
+    align-items: center;
+}
