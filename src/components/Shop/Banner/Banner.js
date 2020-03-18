@@ -1,12 +1,12 @@
 import React from "react";
 
-import Styles from "./Banner.css";
+import Styles from "./Banner.module.css";
 
 const Banner = () => {
     return (
         <div className={Styles.Banner}>
             <div className={Styles.MainHeading}>
-                welcome to Dunno    
+                welcome to Dunno
             </div>
             <div className={Styles.SubHeading}>
                 we let you do your grocery shopping with comfort

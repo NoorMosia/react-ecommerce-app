@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import Styles from "./Toolbar.css"
+import Styles from "./Toolbar.module.css"
 import NavigationItems from "../NavigationItems/NavigationItems";
 
 const toolbar = () => {
@@ -14,7 +14,7 @@ const toolbar = () => {
             <nav className={Styles.Nav}>
                 <NavigationItems />
             </nav>
-        </div>    
+        </div>
     )
 }
 

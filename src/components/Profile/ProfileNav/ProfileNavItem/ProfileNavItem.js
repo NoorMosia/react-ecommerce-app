@@ -1,7 +1,7 @@
 import React from 'react';
-import {NavLink} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-import Styles from './ProfileNavItem.css';
+import Styles from './ProfileNavItem.module.css';
 
 const Item = (props) => {
 

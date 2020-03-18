@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Styles from "./Products-set.css";
+import Styles from "./Products-set.module.css";
 import ProductCard from "../../../containers/ProductCard/ProductsCard";
 
 const ProductSet = (props) => {

@@ -2,7 +2,7 @@ import React from 'react';
 import { IoIosSettings, IoIosNotifications } from "react-icons/io";
 import { IoIosList } from "react-icons/io";
 
-import Styles from './ProfileNav.css';
+import Styles from './ProfileNav.module.css';
 import ProfileNavItem from './ProfileNavItem/ProfileNavItem';
 
 const ProfileNav = (props) => {
@@ -19,7 +19,7 @@ const ProfileNav = (props) => {
             </ProfileNavItem>
             <ProfileNavItem link="/user/settings">
                 <span className={Styles.Icon}>
-                    <IoIosSettings /> 
+                    <IoIosSettings />
                 </span>
                 <span className={Styles.Text}>
                     Settings
@@ -27,7 +27,7 @@ const ProfileNav = (props) => {
             </ProfileNavItem>
             <ProfileNavItem link="/user/messages">
                 <span className={Styles.Icon}>
-                    <IoIosNotifications /> 
+                    <IoIosNotifications />
                 </span>
                 <span className={Styles.Text}>
                     Notifications

@@ -5,6 +5,8 @@
     /* background-color: salmon; */
     border: 1px solid salmon;
     margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px rgb(105, 105, 105);
 }
 .CartItem div {
     padding: .5rem;
@@ -78,4 +80,17 @@
 .Add {
     color: rgb(2, 255, 36);
     cursor: pointer;
+}
+
+
+@media only screen and (max-width:1050px){
+    .CartItem {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width:720px){
+    .CartItem {
+        width: 98%;
+    }
 }

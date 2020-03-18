@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Styles from './Suppliers.css';
+import Styles from './Suppliers.module.css';
 
 import Supplier from './Supplier/Supplier';
 
 const Suppliers = props => {
 
-    const suppliersMapped = props.suppliers.map( sup => {
-        return <Supplier key={sup.name} supplierData={sup}/>
-    }) 
+    const suppliersMapped = props.suppliers.map(sup => {
+        return <Supplier key={sup.name} supplierData={sup} />
+    })
 
     return (
         <div className={Styles.Suppliers}>

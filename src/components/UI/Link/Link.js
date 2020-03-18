@@ -1,6 +1,6 @@
 import React from "react";
 
-import Styles from "./Link.css";
+import Styles from "./Link.module.css";
 
 const Link = (props) => {
     return (

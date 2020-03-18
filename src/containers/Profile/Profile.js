@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom'
 
-import Styles from './Profile.css';
+import Styles from './Profile.module.css';
 import ProfileInfo from '../../components/Profile/ProfileInfo/ProfileInfo';
 
 class Profile extends Component {
 
     render() {
-        return(
+        return (
             <div className={Styles.Profile}>
-                <Route path="/user" render={() => <ProfileInfo/>} />
+                <Route path="/user" render={() => <ProfileInfo />} />
             </div>
         )
     }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Styles from './InfoHead.css';
+import Styles from './InfoHead.module.css';
 
 const InfoHead = () => {
 

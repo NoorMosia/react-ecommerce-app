@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import styles from "./Anchor.css";
+import styles from "./Anchor.module.css";
 
 const Anchor = (props) => {
     return (

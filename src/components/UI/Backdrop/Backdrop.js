@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Styles from './Backdrop.css';
+import Styles from './Backdrop.module.css';
 
 const Backdrop = props => {
 

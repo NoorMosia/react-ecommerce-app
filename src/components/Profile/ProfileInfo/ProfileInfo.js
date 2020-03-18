@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router-dom'
 
-import Styles from './ProfileInfo.css';
+import Styles from './ProfileInfo.module.css';
 import InfoHead from './InfoHead/InfoHead';
 import ProfileNav from '../ProfileNav/ProfileNav';
 import Orders from '../Orders/Orders';

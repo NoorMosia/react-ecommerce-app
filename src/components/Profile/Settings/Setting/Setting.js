@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Styles from './Setting.css';
+import Styles from './Setting.module.css';
 
 const Setting = (props) => {
 

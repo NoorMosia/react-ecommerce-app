@@ -7,10 +7,10 @@ import { IoIosInformationCircleOutline, IoMdDoneAll } from "react-icons/io";
 import Aux from '../../hoc/Aux-cover/Aux-cover';
 
 import Modal from '../../components/UI/Modal/Modal';
-import styles from "./ProductsCard.css";
+import styles from "./ProductsCard.module.css";
 import ProductInfo from "../../components/Shop/ProductInfo/ProductInfo";
 
-class ProductCard extends Component  {
+class ProductCard extends Component {
     state = {
         showModal: false
     }
@@ -28,20 +28,20 @@ class ProductCard extends Component  {
             showModal: false
         })
     }
-    
+
     render() {
         let mod = null;
 
-        if(this.state.showModal) {
-           mod = <Modal show={this.state.showModal} close={this.onCloseInfo}> 
-                    <ProductInfo imageUrl={this.props.product.imageUrl}/>
-                </Modal>
+        if (this.state.showModal) {
+            mod = <Modal show={this.state.showModal} close={this.onCloseInfo}>
+                <ProductInfo imageUrl={this.props.product.imageUrl} />
+            </Modal>
         }
 
-        let cartIcon =  <MdAddShoppingCart />;
+        let cartIcon = <MdAddShoppingCart />;
 
         this.props.cartProducts.forEach(prod => {
-            if(this.props.product.title === prod.title) {
+            if (this.props.product.title === prod.title) {
                 cartIcon = <IoMdDoneAll />
             }
         });
@@ -64,7 +64,7 @@ class ProductCard extends Component  {
                     </div>
                     <div className={styles.Icons}>
                         <div className={styles.Cart} onClick={() => this.props.onAddToCart(this.props.product)}>
-                            { cartIcon }
+                            {cartIcon}
                         </div>
                         <div className={styles.Info} onClick={() => this.onViewInfo()}>
                             <IoIosInformationCircleOutline />

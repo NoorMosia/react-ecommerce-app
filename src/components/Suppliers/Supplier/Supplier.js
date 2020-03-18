@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Styles from './Supplier.css';
+import Styles from './Supplier.module.css';
 
 const Supplier = props => {
 
@@ -9,14 +9,14 @@ const Supplier = props => {
         const numProds = arr.length;
 
         arr.forEach((prod, index) => {
-            if(numProds < 2 ) {
+            if (numProds < 2) {
                 str += prod;
-            } else if(index < numProds - 2 ) {
+            } else if (index < numProds - 2) {
                 str += prod + ", ";
-            } else if(index === numProds - 2) {
+            } else if (index === numProds - 2) {
                 str += " " + prod;
             }
-            else if(index === numProds -1) {
+            else if (index === numProds - 1) {
                 str += " And " + prod;
             }
         });
@@ -29,7 +29,7 @@ const Supplier = props => {
             <div className={Styles.ImageContainer} >
                 <img src={props.supplierData.imageUrl} alt={props.supplierData.name} />
             </div>
-            <div className={Styles.Text} > 
+            <div className={Styles.Text} >
                 <div className={Styles.Name} >{props.supplierData.name} </div>
                 <div className={Styles.Info} >Products: {commaStringBuilder(props.supplierData.products)} </div>
                 <div className={Styles.Info} >locations: {commaStringBuilder(props.supplierData.locations)} </div>

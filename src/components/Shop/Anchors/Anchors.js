@@ -1,7 +1,7 @@
 import React from "react";
 
 import Anchor from "./Anchor/Anchor";
-import styles from "./Anchors.css";
+import styles from "./Anchors.module.css";
 
 import { IoIosAlbums, IoIosBasket, IoIosContacts } from "react-icons/io";
 

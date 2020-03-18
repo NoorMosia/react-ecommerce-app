@@ -7,9 +7,9 @@ const Layout = (props) => {
     return (
         <Aux>
             <Toolbar />
-            <main>
+            <div>
                 {props.children}
-            </main>
+            </div>
         </Aux>
     )
 }

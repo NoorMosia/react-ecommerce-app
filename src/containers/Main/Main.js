@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Route } from "react-router-dom";
 import { connect } from 'react-redux';
 
-import Styles from "./Main.css";
+import Styles from "./Main.module.css";
 
 import Links from "../../components/Shop/Anchors/Anchors";
 import Shop from "../../components/Shop/ShopView/ShopView";

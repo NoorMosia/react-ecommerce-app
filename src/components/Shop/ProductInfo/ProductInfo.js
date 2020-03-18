@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Styles from './ProductInfo.css';
+import Styles from './ProductInfo.module.css';
 
 const ProductInfo = props => {
 

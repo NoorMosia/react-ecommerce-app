@@ -3,32 +3,32 @@ import { connect } from 'react-redux';
 
 import * as actions from '../../store/actions/cart';
 
-import Styles from './Cart.css';
+import Styles from './Cart.module.css';
 import CartItem from '../../components/Cart/CartItem/CartItem';
 import CheckoutBtn from '../../components/Cart/CheckoutBtn/CheckoutBtn';
 import EmptyCart from '../../components/Cart/EmptyCart/EmptyCart';
 
 class Cart extends Component {
 
-    render () {
+    render() {
         const products = this.props.cart.map(item => (
-            <CartItem product={item} key={item.price} 
-                clicked={() => this.props.onRemoveFromCart(item)} 
+            <CartItem product={item} key={item.price}
+                clicked={() => this.props.onRemoveFromCart(item)}
                 inc={() => this.props.onIncrementItemInCart(item)}
-                dec={() => this.props.onDecrementItemInCart(item)}/>
+                dec={() => this.props.onDecrementItemInCart(item)} />
         ))
 
         let cartContent = (
             <div className={Styles.Cart}>
                 <div className={Styles.Total}>
                     Total: R {this.props.total}
-                </div> 
+                </div>
                 {products}
                 <CheckoutBtn />
             </div>
         )
 
-        if(!this.props.cart[0]) {
+        if (!this.props.cart[0]) {
             cartContent = (
                 <EmptyCart />
             )
