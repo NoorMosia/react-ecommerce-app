@@ -22,10 +22,9 @@ class App extends Component {
                 <Layout >
                     <Switch >
                         <Route path="/cart" exact component={Cart} /> <Route path="/user" component={Profile}
-                        /> <Redirect from="/"
-                            exact to="/products" />
-                        <Route path="/"
-                            component={Main} />
+                        />
+                        <Redirect from="/" exact to="/products" />
+                        <Route path="/" component={Main} />
                     </Switch>
                 </Layout>
             </BrowserRouter >
