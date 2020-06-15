@@ -21,7 +21,8 @@ class App extends Component {
             <BrowserRouter >
                 <Layout >
                     <Switch >
-                        <Route path="/cart" exact component={Cart} /> <Route path="/user" component={Profile}
+                        <Route path="/cart" exact component={Cart} />
+                        <Route path="/user" component={Profile}
                         />
                         <Redirect from="/" exact to="/products" />
                         <Route path="/" component={Main} />
